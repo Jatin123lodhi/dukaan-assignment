@@ -9,8 +9,8 @@ interface IModalprops {
 }
 
 const ChoosePaymentMethodModal = (props: IModalprops) => {
-  const { isOpen, onClose } = props;
-
+  const { isOpen=true, onClose } = props;
+  
   const overlayClass = isOpen
     ? "fixed inset-0 bg-[#1A181E] opacity-50 border border-red-700"
     : "hidden";

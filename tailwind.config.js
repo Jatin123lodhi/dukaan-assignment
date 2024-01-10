@@ -68,10 +68,13 @@ export default {
           primary: "#146EB4",
         },
         blackShades:{
-        
+          back12:"#1A181E",
           black30: "#4D4D4D",
+          black60: "#999999",
           black80: "#D9D9D9",
-          black90: '#E6E6E6'
+          black85: "#D9D9D9",
+          black90: '#E6E6E6',
+          black95: "#F2F2F2",
         },
         red:{
           secondary: "#E50B20"
