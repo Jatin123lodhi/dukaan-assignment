@@ -12,7 +12,7 @@ const ChoosePaymentMethodModal = (props: IModalprops) => {
   const { isOpen=true, onClose } = props;
   
   const overlayClass = isOpen
-    ? "fixed inset-0 bg-[#1A181E] opacity-50 border border-red-700"
+    ? "fixed inset-0 bg-[#1A181E] opacity-50"
     : "hidden";
   const modalClass = isOpen
     ? "fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white w-[564px]    rounded-[8px] py-6 border"

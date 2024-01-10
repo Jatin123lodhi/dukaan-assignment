@@ -13,7 +13,7 @@ const SetupCashFreePaymentModal = (props:IModalprops) => {
   
 
   const overlayClass = isOpen
-    ? "fixed inset-0 bg-[#1A181E] opacity-50 border border-red-700"
+    ? "fixed inset-0 bg-[#1A181E] opacity-50"
     : "hidden";
   const modalClass = isOpen
     ? "fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white w-[564px] min-h-[442px] rounded-[8px] p-6 border"

@@ -4,10 +4,10 @@ import LeftArrowIcon from "../assets/LeftArrowIcon";
 import RightArrowIcon from "../assets/RightArrowIcon";
 import SortIcon from "../assets/SortIcon";
 import SearchIcon from "../assets/header/SearchIcon";
-import TriangleIcon from "../assets/triangleIcon";
+import TriangleIcon from "../assets/TriangleIcon";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
-// import PaymentProvider from "../components/PaymentProvider";
+import PaymentProvider from "../components/PaymentProvider";
 
 const Dashboard = () => {
   return (
@@ -17,7 +17,7 @@ const Dashboard = () => {
       
       <div className="w-full">
         <Header />
-        {/* <PaymentProvider/> */}
+        <PaymentProvider/>
         {/* Dashboard after payment provider is setup */}
         <div className="p-[32px]">
           <div className="flex justify-between items-center mb-6">
